@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<head> 
+<link rel="stylesheet" href="registration.css">
+<title> Registration Form </title> 
+</head> 
+<body> 
+<div class="regform"> <h1>Registration Form</h1> </div>
+<div class="main"> 
+    <form> 
+    <div id="name">
+        <h2 class="name" required>Name</h2>
+        <input class="firstname" type="text" name="first_name" required><br>
+        <label class="firstlabel">first name</label>
+        <input class="lastname" type="text" name="last_name" required>
+        <label class="lastlabel">last name</label>
+    </div>
+        <h2 class="name">Institution</h2> 
+        <input class="company" type="text" name="Institution">
+
+        <h2 class="name">Age</h2> 
+        <input class="company" type="text" name="Age">
+        
+        <h2 class="name" required>Email</h2> 
+        <input class="email" type="text" name="email">
+      
+        <h2 class="name"> Phone</h2>
+        <input class="code" type="text" name="area_code">
+        <label class="area-code">Area Code</label>
+        <input class="number" type="text" name="phone">
+        <label class="phone-number">Phone Number</label>
+
+        <h2 class="name" required>Stream</h2>
+        <select class="option" name="subject">
+          <option disabled="disabled" selected="selected">--Choose Option</option>
+          <option> Computer Science</option>
+          <option> Artificial Intelligence </option>
+          <option> Civil Engineering </option>
+          <option> Mechanical Engineering </option>
+          <option> Law </option>
+        </select>
+      
+      <h2 id="customer">Are you a beginner?</h2> 
+      <label class="radio">
+        <input class="radio-one" type="radio"  name="beg">
+        <span class="checkmark"> </span> 
+         Yes
+      </label> 
+       <label class="radio">
+        <input class="radio-two" type="radio" name="beg">
+        <span class="checkmark"> </span> 
+         No
+      </label> 
+      <br>
+      <br>
+       <h2 id="customer">Gender</h2> 
+      <label class="radio">
+        <input class="radio-one" type="radio"  name="beg">
+        <span class="checkmark"> </span> 
+         Male
+      </label> 
+       <label class="radio">
+        <input class="radio-two" type="radio" name="beg">
+        <span class="checkmark"> </span> 
+         Female
+      </label> 
+       <label class="radio">
+        <input class="radio-two" type="radio" name="beg">
+        <span class="checkmark"> </span> 
+         Prefer not to say
+      </label> 
+      
+      
+      <button type="submit">Register</button>
+    </form>
+
+</div> 
+</body> 
+
+</HTML> 
