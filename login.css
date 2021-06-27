@@ -55,6 +55,7 @@ body{
     letter-spacing: 5px;
     opacity: .85;
     background: transparent;
+    text-decoration: none;
     }
     button:hover{
         opacity: 1.0;
