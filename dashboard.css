@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin-left: 0;
   padding: 0;
 }
 body {
@@ -10,8 +10,7 @@ body {
   margin: auto;
 }
 header {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(https://i.postimg.cc/YjcJg24M/aa.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(45, 101, 101, 0.8));
   height: 100%;
   -webkit-background-size: cover;
   background-size: cover;
@@ -38,60 +37,15 @@ header {
   background: #fff;
   color: #333;
 }
-.stats {
-  margin-left: 1000px;
-  margin-top: 50px;
-}
 #head {
   color: #fff;
   padding-top: 120px;
   font-size: 100px;
 }
-body {
-  font-family: "Lato", sans-serif;
-}
-
-.sidenav {
-  height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: grey;
-  overflow-x: hidden;
-  padding-top: 100px;
-}
-
-.sidenav a {
-  padding: 6px 8px 100px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: white;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: black;
-}
-
-.main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
-  }
-}
 
 .right {
   float: right;
+  margin-left: 70px;
 }
 
 .left {
