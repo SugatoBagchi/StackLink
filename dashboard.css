@@ -12,7 +12,7 @@ body {
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(https://i.postimg.cc/YjcJg24M/aa.jpg);
-  height: 100vh;
+  height: 100%;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -38,24 +38,62 @@ header {
   background: #fff;
   color: #333;
 }
+.stats {
+  margin-left: 1000px;
+  margin-top: 50px;
+}
 #head {
   color: #fff;
   padding-top: 120px;
   font-size: 100px;
 }
-* {
-  box-sizing: border-box;
+body {
+  font-family: "Lato", sans-serif;
 }
 
-.column {
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: grey;
+  overflow-x: hidden;
+  padding-top: 100px;
+}
+
+.sidenav a {
+  padding: 6px 8px 100px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: black;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.right {
+  float: right;
+}
+
+.left {
   float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
